@@ -15,6 +15,7 @@ import {
 } from "@syncfusion/ej2-react-schedule";
 import { DatePickerComponent } from "@syncfusion/ej2-react-calendars";
 import { registerLicense } from "@syncfusion/ej2-base";
+import { View } from "@syncfusion/ej2-schedule";
 
 interface Event {
   Id: number;
@@ -246,7 +247,7 @@ const Calendar: React.FC = () => {
         >
           <ViewsDirective>
             {["Day", "Week", "WorkWeek", "Month", "Agenda"].map((item) => (
-              <ViewDirective key={item} option={item} />
+              <ViewDirective key={item} option={item as View} />
             ))}
           </ViewsDirective>
           <Inject

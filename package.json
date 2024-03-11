@@ -11,8 +11,10 @@
   },
   "dependencies": {
     "@syncfusion/ej2-base": "^24.2.8",
+    "@syncfusion/ej2-react-base": "^24.2.7",
     "@syncfusion/ej2-react-calendars": "^24.2.9",
     "@syncfusion/ej2-react-schedule": "^24.2.8",
+    "@syncfusion/ej2-schedule": "^24.2.8",
     "chart.js": "^4.4.0",
     "react": "^18.2.0",
     "react-chartjs-2": "^5.2.0",
